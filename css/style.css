@@ -1,0 +1,150 @@
+*{
+    margin : 0;
+    padding : 0;
+    
+}
+body{
+    background-color: antiquewhite;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    margin : 2rem;
+}
+
+.brand img{
+    width : 40px;
+}
+
+.brand span{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 800;
+    padding: 8px;
+}
+
+.navigation ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.navigation ul li{
+    padding : 20px;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.navigation ul li a:hover{
+    color: var(--main-color);
+}
+
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    width : 70%;
+    font-family: var(--font1);
+    margin : 20px auto;
+    border-radius: 12px;
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    display: flex;
+}
+.container h1{
+    font-family: var(--font1);
+    font-size: 1.2rem;
+    padding: 20px;
+}
+
+
+.song-item{
+    background-color: white;
+    margin:20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    font-family: var(--font1);
+    font-size: 0.8rem;
+    border-radius: 20px;
+}
+
+.song-item img{
+    width: 40px;
+    padding:2px;
+    border-radius: 40px;
+    margin: 0 10px;
+}
+
+.timestamp{
+    margin: 0 10px;
+}
+.song-item i{
+    margin-left:5px;
+    cursor: pointer;
+}
+.bottom{
+    background-color: black ;
+    height: 70px;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width : 70vw;
+    margin: auto;
+    /* border: 5px solid var(--main-color); */
+    border-radius: 50px;
+}
+
+#progress-bar{
+    width : 40vw;
+    cursor: pointer;
+}
+
+.icons{
+    position: relative;
+    margin-top: 12px;
+    
+}
+.icons i{
+    color: var(--main-color);
+    padding: 0 16px;
+    cursor: pointer;
+}
+.song-info{
+    color: white;
+    position: absolute;
+    left: 0.5rem;
+    bottom : 1rem;
+    font-family: var(--font1);
+    font-size: 0.8rem;
+}
+
+
+.song-info img{
+    width: 50px;
+    margin-right: 0.5rem;
+    
+}
+
+.visible-gif{
+    opacity: 1;
+    transition: opacity 0.5s ease-in; 
+}
+
+.invisible-gif{
+    opacity: 0;
+    transition: opacity 0.5s ease-in; 
+}

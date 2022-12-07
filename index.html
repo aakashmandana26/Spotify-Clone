@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utils.css" />
+    <title>Spotify</title>
+  </head>
+  <body>
+    <!-- ---------------------------------------------Navigation--------------------------------------------------------- -->
+    <div class="navigation">
+      <div class="brand op-font">
+        <img src="images/logo.png" alt="Spotify" />
+        <span>Spotify</span>
+      </div>
+      <ul class="normal-font">
+        <li><a href="/">Home</a></li>
+        <li><a href="/">Songs</a></li>
+        <li><a href="/">Blogs</a></li>
+      </ul>
+    </div>
+
+    <!--------------------------------------------------Main Content------------------------------------------------------- -->
+    <div class="container">
+      <div class="songList">
+        <h1>Best of NCS - No Copyright Sounds</h1>
+        <div class="inner-container">
+          <div class="song-item">
+            <img src="covers/1.jpg" alt="1)" />
+            <span class="song-name">Legion</span>
+            <span class="timestamp"
+              >5:34<i id="1" class="fa-regular fa-circle-play"></i
+            ></span>
+          </div>
+          <div class="song-item">
+            <img src="covers/2.jpg" alt="1)" />
+            <span class="song-name">Trap Cartel</span>
+            <span class="timestamp"
+              >5:34<i id="2" class="fa-regular fa-circle-play"></i
+            ></span>
+          </div>
+          <div class="song-item">
+            <img src="covers/3.jpg" alt="1)" />
+            <span class="song-name">They Mad</span>
+            <span class="timestamp"
+              >5:34<i id="3" class="fa-regular fa-circle-play"></i
+            ></span>
+          </div>
+          <div class="song-item">
+            <img src="covers/4.jpg" alt="1)" />
+            <span class="song-name">Plug Walk</span>
+            <span class="timestamp"
+              >5:34<i id="4" class="fa-regular fa-circle-play"></i
+            ></span>
+          </div>
+          <div class="song-item">
+            <img src="covers/5.jpg" alt="1)" />
+            <span class="song-name">Let Me Love You</span>
+            <span class="timestamp"
+              >5:34<i id="5" class="fa-regular fa-circle-play"></i
+            ></span>
+          </div>
+          <div class="song-item">
+            <img src="covers/6.jpg" alt="1)" />
+            <span class="song-name">The Safety Dance</span>
+            <span class="timestamp"
+              >5:34<i id="6" class="fa-regular fa-circle-play"></i
+            ></span>
+          </div>
+          <div class="song-item">
+            <img src="covers/7.jpg" alt="1)" />
+            <span class="song-name">Back-It Up</span>
+            <span class="timestamp"
+              >5:34<i id="7" class="fa-regular fa-circle-play"></i
+            ></span>
+          </div>
+          <!-- <div class="song-item">
+                    <img src="covers/1.jpg" alt="1)">
+                    <span>Let Me Love You</span>
+                    <span>5:34<i id="" class="fa-regular fa-circle-play"></i></span>
+                </div>
+                <div class="song-item">
+                    <img src="covers/1.jpg" alt="1)">
+                    <span>Let Me Love You</span>
+                    <span>5:34<i id="" class="fa-regular fa-circle-play"></i></span>
+                </div>
+                <div class="song-item">
+                    <img src="covers/1.jpg" alt="1)">
+                    <span>Let Me Love You</span>
+                    <span>5:34<i id="" class="fa-regular fa-circle-play"></i></span>
+                </div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- -----------------------------------------------Progress bar----------------------------------------------------------- -->
+    <div class="bottom">
+      <input type="range" name="range" id="progress-bar" min="0" max="100" value="0"/>
+      <div class="icons">
+        <i id="main-backward-btn" class="fa-solid fa-1x fa-backward"></i>
+        <i id="main-play-btn" class="fa-solid fa-1x fa-play"></i>
+        <i id="main-forward-btn" class="fa-solid fa-1x fa-forward"></i>
+      </div>
+      <div class="song-info">
+        <img id="gif" src="images/playing.gif" class="invisible-gif" alt="song playing" />
+        <span>Song name - Singer</span>
+      </div>
+    </div>
+    <!-- <i class="fa fa-pause-circle-o" aria-hidden="true"></i> -->
+    <!------------------------------------------------------------------------------------------------------  -->
+    <script
+      src="https://kit.fontawesome.com/352e754020.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
+

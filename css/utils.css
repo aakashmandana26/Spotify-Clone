@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Ubuntu:wght@500&display=swap');
+
+:root{
+    --main-color : rgb(17, 223, 17);
+    --font1 : 'Merriweather', serif;
+    --font2 : 'Ubuntu', cursive;
+}
+
+.normal-font{
+    font-family: var(--font1);
+}
+
+.op-font{
+    font-family: var(--font2);
+}
